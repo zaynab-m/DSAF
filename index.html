@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Digital Sovereignty Audit Framework (DSAF) — Operational Reversibility</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open-source audit framework to assess whether an organization can exit its current cloud provider without catastrophic loss of continuity, data, or institutional knowledge. Includes a free Excel assessment tool.">
+  <link rel="canonical" href="https://zaynab-m.github.io/DSAF/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zaynab-m.github.io/DSAF/">
+  <meta property="og:title" content="Digital Sovereignty Audit Framework (DSAF) — Operational Reversibility">
+  <meta property="og:description" content="Open-source audit framework and Excel tool to assess cloud exit readiness: continuity, data portability, and institutional knowledge.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="DSAF — Operational Reversibility">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Open Source · Audit Framework</p>
+      <h1>Digital Sovereignty Audit Framework<br>— Operational Reversibility</h1>
+      <p class="subtitle">A structured way to assess whether an organization can exit its current cloud provider arrangement without catastrophic loss of continuity, data, or institutional knowledge.</p>
+      <div class="level-bars">
+        <span></span><span></span><span></span>
+      </div>
+      <p class="byline"><strong>Zaynab Musawi</strong></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/DSAF-Operational-Reversibility-v1.1.xlsx" download>Download the assessment tool (.xlsx)</a>
+        <a class="btn btn-secondary" href="https://github.com/zaynab-m/DSAF">View on GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>How to use this form</h2>
+      <p class="lede">This form can be used to assess whether an organization can exit its current cloud provider arrangement without catastrophic loss of continuity, data, or institutional knowledge.</p>
+      <blockquote class="intro-quote">
+        “Can a third party take over the service upon provider failure or contract termination, based on available documentation and design?”
+        <cite>— DICTU Toetsingsinstrument (2026), Criterion 3.4</cite>
+      </blockquote>
+      <blockquote class="intro-quote">
+        “A contractually binding exit plan is mandatory.”
+        <cite>— EuroStack Framework (2025), Criterion 2.3</cite>
+      </blockquote>
+      <p class="lede">The form covers all five control areas. The audit questions — the numbered Yes/No questions — are the starting point: they define what the auditor must verify. All five control areas are assessed on two dimensions: <strong>design maturity</strong> (whether the control is designed to achieve its objective) and <strong>operating effectiveness</strong> (whether the designed control actually operated as intended during the audit period).</p>
+    </div>
+  </section>
+
+  <section class="divider" id="controls">
+    <div class="wrap">
+      <h2>Five control areas</h2>
+      <p class="lede">Each control area is scored independently on design maturity (M1–M5) and operating effectiveness (E1–E4), then rolled up into an overall conclusion on the Summary tab.</p>
+      <div class="controls-grid">
+        <div class="control-card">
+          <div class="num">C1</div>
+          <h3>Exit Plan &amp; Contractual Framework</h3>
+          <p>Verifies that a formally approved, contractually supported exit plan exists, enabling an orderly transition to an alternative provider within a defined Recovery Time Objective (RTO).</p>
+        </div>
+        <div class="control-card">
+          <div class="num">C2</div>
+          <h3>Data Portability &amp; Technical Exportability</h3>
+          <p>Verifies that all data — primary data, backups, configurations, metadata, and logs — can be exported at any time in open, non-proprietary formats at proportionate cost.</p>
+        </div>
+        <div class="control-card">
+          <div class="num">C3</div>
+          <h3>Knowledge Transfer &amp; Operational Documentation</h3>
+          <p>Verifies that the cloud environment is documented in sufficient detail for a competent third party to assume full operational control within the exit RTO.</p>
+        </div>
+        <div class="control-card">
+          <div class="num">C4</div>
+          <h3>Continuity of Operations During Migration</h3>
+          <p>Verifies that the exit plan contains a migration continuity plan: phases, parallel operation, data synchronization, degradation tolerance, and rollback procedure.</p>
+        </div>
+        <div class="control-card">
+          <div class="num">C5</div>
+          <h3>Testing Programme &amp; Periodic Evaluation</h3>
+          <p>Verifies that exit capability is subject to a structured, periodic test programme, with findings tracked to remediation and reported to senior management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="divider" id="levels">
+    <div class="wrap">
+      <h2>Maturity &amp; effectiveness levels</h2>
+      <p class="lede">A level applies only if every cumulative criterion at that level is satisfied. Part A and Part B are scored independently and never averaged together.</p>
+      <div class="levels-cols">
+        <div>
+          <h3>Part A — Design Maturity (M1–M5)</h3>
+          <div class="level-row"><div class="tag">M1</div><div class="desc"><strong>No Reversibility</strong><span>The service is not transferable; continuity on provider failure is not guaranteed.</span></div></div>
+          <div class="level-row"><div class="tag">M2</div><div class="desc"><strong>Limited Reversibility</strong><span>Documentation exists to a limited extent, but transfer to a third party is complex.</span></div></div>
+          <div class="level-row"><div class="tag">M3</div><div class="desc"><strong>Contractual Reversibility</strong><span>The service is largely transferable; documentation and design are available at a high level.</span></div></div>
+          <div class="level-row"><div class="tag">M4</div><div class="desc"><strong>Active Reversibility</strong><span>The service is fully transferable; documentation and design are sufficiently detailed.</span></div></div>
+          <div class="level-row"><div class="tag">M5</div><div class="desc"><strong>Full Operational Reversibility</strong><span>As M4, and the documentation and design have been tested to confirm a third party can operate the service.</span></div></div>
+        </div>
+        <div>
+          <h3>Part B — Operating Effectiveness (E1–E4)</h3>
+          <div class="level-row"><div class="tag">E1</div><div class="desc"><strong>Not Effective</strong><span>The control has never been tested or operated.</span></div></div>
+          <div class="level-row"><div class="tag">E2</div><div class="desc"><strong>Partially Effective</strong><span>The control exists but is untested or incomplete in operation.</span></div></div>
+          <div class="level-row"><div class="tag">E3</div><div class="desc"><strong>Largely Effective</strong><span>The control has been demonstrated to operate, with only minor gaps.</span></div></div>
+          <div class="level-row"><div class="tag">E4</div><div class="desc"><strong>Fully Effective</strong><span>The control is fully demonstrated and independently verified.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="divider" id="workflow">
+    <div class="wrap">
+      <h2>Workflow</h2>
+      <p class="lede">The auditor reads the Instructions and Definitions tabs once, then repeats a five-step sequence for each of the five control areas before aggregating results on the Summary tab.</p>
+      <div class="diagram-frame">
+        <img src="assets/DSAF-diagram.png" alt="DSAF workflow diagram: orientation, per-control assessment (objective, audit questions, design maturity, operating effectiveness, responsible role), aggregation on the summary tab, and overall audit conclusion.">
+      </div>
+    </div>
+  </section>
+
+  <section class="download-section" id="download">
+    <div class="wrap">
+      <h2>Download the assessment tool</h2>
+      <p class="lede">A ready-to-use Excel workbook: Instructions, Definitions, five control-area sheets (C1–C5), and an auto-calculated Summary tab.</p>
+      <div class="file-card">
+        <div class="meta">
+          <strong>DSAF-Operational-Reversibility-v1.1.xlsx</strong>
+          <span>Version 1.1 · Microsoft Excel workbook</span>
+        </div>
+        <a class="btn btn-primary" href="assets/DSAF-Operational-Reversibility-v1.1.xlsx" download>Download .xlsx</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="divider" id="license">
+    <div class="wrap">
+      <h2>Open source</h2>
+      <p class="lede">DSAF is released as open source so any organization can adopt, adapt, and redistribute it freely.</p>
+      <div class="oss-grid">
+        <div class="oss-card">
+          <h3>MIT License</h3>
+          <p>Free to use, copy, modify, and distribute — including for commercial audits — provided the copyright notice is retained. See <a href="LICENSE">LICENSE</a> for the full text.</p>
+        </div>
+        <div class="oss-card">
+          <h3>Clone the repository</h3>
+          <pre class="codeblock">git clone https://github.com/zaynab-m/DSAF.git</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span>© 2026 Zaynab Musawi — released under the <a href="LICENSE">MIT License</a>.</span>
+    <span><a href="https://github.com/zaynab-m/DSAF">github.com/zaynab-m/DSAF</a></span>
+  </footer>
+
+</body>
+</html>
