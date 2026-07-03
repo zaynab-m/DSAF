@@ -81,7 +81,7 @@ DSAF was developed as part of a master's thesis at Leiden University.
 
 ## Contact & collaboration
 
-DSAF was developed by Zaynab Musawi, MSc student in ICT in Business and the Public Sector at Leiden University. Feedback, pilot collaborations, and contributions to the framework are welcome.
+DSAF was developed by Zaynab Musawi, MSc student in ICT in Business and the Public Sector at Leiden University, in collaboration with EY Netherlands (Amsterdam), the host organization for this research. Feedback, pilot collaborations, and contributions to the framework are welcome.
 
 - LinkedIn: [linkedin.com/in/zaynab-musawi](https://www.linkedin.com/in/zaynab-musawi)
 - Issues: [github.com/zaynab-m/DSAF/issues](https://github.com/zaynab-m/DSAF/issues)

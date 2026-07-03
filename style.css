@@ -105,6 +105,12 @@ a { color: var(--blue-accent); }
 
 .byline strong { font-weight: 600; color: #fff; }
 
+.byline-host {
+  font-size: 13.5px;
+  color: #9aa4c7;
+  margin-top: 4px;
+}
+
 .hero-actions {
   margin-top: 36px;
   display: flex;
