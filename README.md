@@ -55,11 +55,36 @@ python3 -m http.server 8000
 
 1. Push this repository to GitHub.
 2. In **Settings → Pages**, set the source branch to `main` and the folder to `/ (root)`.
-3. The site will be published at `https://<your-username>.github.io/dsaf/`.
+3. The site will be published at `https://<your-username>.github.io/DSAF/`.
 
 ## Contributing
 
 Issues and pull requests are welcome — for corrections to the audit criteria, additional control areas, translations, or improvements to the site itself.
+
+## Citing this work
+
+DSAF was developed as part of a master's thesis at Leiden University.
+
+> Musawi, Z. (2026). *Auditing Digital Sovereignty: Design and Evaluation of an Operational Reversibility Framework for IT Auditors* [Unpublished master's thesis]. Leiden University.
+
+```bibtex
+@mastersthesis{musawi2026dsaf,
+  author = {Musawi, Zaynab},
+  title  = {Auditing Digital Sovereignty: Design and
+            Evaluation of an Operational Reversibility
+            Framework for IT Auditors},
+  school = {Leiden University},
+  year   = {2026},
+  note   = {Unpublished master's thesis}
+}
+```
+
+## Contact & collaboration
+
+DSAF was developed by Zaynab Musawi, MSc student in ICT in Business and the Public Sector at Leiden University. Feedback, pilot collaborations, and contributions to the framework are welcome.
+
+- LinkedIn: [linkedin.com/in/zaynab-musawi](https://www.linkedin.com/in/zaynab-musawi)
+- Issues: [github.com/zaynab-m/DSAF/issues](https://github.com/zaynab-m/DSAF/issues)
 
 ## License
 

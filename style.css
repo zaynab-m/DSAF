@@ -142,6 +142,19 @@ a { color: var(--blue-accent); }
 
 .btn-secondary:hover { border-color: #fff; }
 
+.btn-outline {
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+}
+
+.btn-outline:hover {
+  background: var(--navy);
+  color: #fff;
+}
+
+.contact-actions { margin-top: 8px; }
+
 /* Sections */
 
 section { padding: 64px 0; }
